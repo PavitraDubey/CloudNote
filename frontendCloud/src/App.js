@@ -18,7 +18,7 @@ function App() {
       <NoteState>
         <Router>
           <Navbar />
-          <Alert message="This is amazing React course" />
+          <Alert message="Welcome to CloudNote-Store Your Notes on the Cloud" />
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />}/>
